@@ -1,4 +1,4 @@
-var backid = "main.html";
+var backid = "index.html";
 var backurl = "../" + backid;
 
 mui.plusReady(function() {
@@ -38,8 +38,8 @@ mui.plusReady(function() {
 					appUI.showTopTip("success");
 					openNew("../../index.html");
 				} else {
-					appUI.showTopTip(json.message);
 					appUI.showTopTip("failure");
+					appUI.showTopTip(json.message);
 				}
 			}, true, function() {
 				appUI.removeDisabled(btn_login);
