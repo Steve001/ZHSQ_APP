@@ -1,7 +1,7 @@
 //api连接前缀
 //var APP_DOMAIN = 'http://localhost:8180';
-var APP_DOMAIN = 'http://121.41.28.29:8089/ssm_ecar_war_exploded';
-APP_DOMAIN_msg = 'http://www.hualongyihaoyuan.com:8080/AssessManage';
+var APP_DOMAIN = 'http://121.41.28.29:8089/ZHSQ_war_exploded';
+var APP_DOMAIN_msg = 'http://www.hualongyihaoyuan.com:8080/AssessManage';
 
 //为true输出日志
 var debug = false; 
